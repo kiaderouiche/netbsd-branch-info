@@ -1,13 +1,13 @@
-# netbsd-meta-info
+# netbsd-branch-info
 
-Python implementation mirror of [NetBSD system-info utility][distro-info-link].
+Python implementation mirror of [NetBSD system-info utility][branch-info-link].
 
-[distro-info-link]: https://github.com/kiaderouiche/netbsd-meta-info
+[distro-info-link]: https://github.com/kiaderouiche/netbsd-branch-info
 
 ## Installation
 
 ```bash
-pip install netbsd-meta-info
+pip install netbsd-branch-info
 ```
 
 ## Usage
