@@ -1,1 +1,5 @@
-version,codename,series,created,release,eol,endofsupport
+version,codename,branch,series,created,release,eos
+1.2.1,netbsd-1,maintenence/security,,20-05-1997,NetBSD,
+2.0.1,netbsd-1,maintenence/security,,20-05-1997,NetBSD,
+2.1,netbsd-2,stable,,02-11-2005,,21-08-2008
+8.0,netbsd-8,stable,,20-05-1993,
