@@ -7,8 +7,8 @@ https://www.netbsd.org/releases/release-map.html
 '''
 
 import csv
-with open('netbsd.csv', mode='w') as netbsd_f:
-    netbsd_writer = csv.writer(netbsd_f, delimiter=',', quotechar='"',
+with open('pkgsrc.csv', mode='w') as pkgsrc_f:
+    netbsd_writer = csv.writer(pkgsrc_f, delimiter=',', quotechar='"',
                                quoting=csv.QUOTE_MINIMAL)
     #version,codename,series,created,release,eol
     netbsd_writer.writerow(['version', 'codename','branch', 'series', 'created', 'release', 'eos'])
