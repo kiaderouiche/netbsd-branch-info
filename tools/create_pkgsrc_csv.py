@@ -11,10 +11,12 @@ with open('pkgsrc.csv', mode='w') as pkgsrc_f:
     netbsd_writer = csv.writer(pkgsrc_f, delimiter=',', quotechar='"',
                                quoting=csv.QUOTE_MINIMAL)
     #version,codename,series,created,release,eol
-    netbsd_writer.writerow(['version', 'codename','branch', 'series', 'created', 'release', 'eos'])
-    netbsd_writer.writerow(['0.8', 'netbsd-0', 'stable', '', '20-05-1993', 'major', ''])
-    netbsd_writer.writerow(['0.8', 'netbsd-0', 'stable', '', '20-05-1994', 'major', ''])
-    netbsd_writer.writerow(['1.2.1', 'netbsd-1', 'maintenence/security', '', '20-05-1997', 'minor', ''])
-    netbsd_writer.writerow(['2.0.1', 'netbsd-1', 'maintenence/security', '', '20-05-1997', 'minor', ''])
-    netbsd_writer.writerow(['2.1', 'netbsd-2', 'stable', '', '02-11-2005', 'minor', '21-08-2008'])
+    netbsd_writer.writerow(['version', 'branch', 'release', 'eol'])
+    netbsd_writer.writerow(['2015Q1', 'stable-2015Q1', '14-04-2015', ''])
+    netbsd_writer.writerow(['2015Q2', 'stable-2015Q2', '06-07-2015', ''])
+    netbsd_writer.writerow(['2015Q3', 'stable-2015Q3', '30-09-2015', ''])
+    netbsd_writer.writerow(['2016Q1', 'stable-2016Q1', '09-05-2016', ''])
+    netbsd_writer.writerow(['2016Q1', 'stable-2016Q1', '09-05-2016', ''])
+    netbsd_writer.writerow(['2018Q4', 'stable-2018Q4', '31-12-2018', ''])
+    netbsd_writer.writerow(['2019Q3', 'stable-2019Q43', '03-10-2019', ''])
     
