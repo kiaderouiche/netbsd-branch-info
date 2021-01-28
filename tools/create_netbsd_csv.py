@@ -61,6 +61,8 @@ with open('netbsd.csv', mode='w') as netbsd_f:
     netbsd_writer.writerow(['6.0.1', 'netbsd-6', 'minor', '', '26-12-2012',''])
     netbsd_writer.writerow(['6.1', 'netbsd-6.1', 'minor', '', '18-05-2013', ''])
     netbsd_writer.writerow(['6.1.1', 'netbsd-6.1', 'minor','', '22-08-2013', ''])
+    netbsd_writer.writerow(['6.1.4', 'netbsd-6.1', 'minor','', '22-09-2014', ''])
+    netbsd_writer.writerow(['6.1.5', 'netbsd-6.1', 'minor','', '22-09-2014', '23-08-2018'])
     netbsd_writer.writerow(['7.0', 'netbsd-7', 'major', '', '25-08-2015', ''])
     netbsd_writer.writerow(['7.0.1', 'netbsd-7', 'minor', '', '22-05-2016', ''])
     netbsd_writer.writerow(['7.0.2', 'netbsd-7', 'minor', '', '21-10-2016', ''])
