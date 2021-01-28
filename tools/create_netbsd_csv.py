@@ -14,7 +14,7 @@ import csv
 with open('netbsd.csv', mode='w') as netbsd_f:
     netbsd_writer = csv.writer(netbsd_f, delimiter=',', quotechar='"',
                                quoting=csv.QUOTE_MINIMAL)
-    #version,branch,series, created(for major version, begin Candidat_1,2 and Patch),release,eol
+    #version,branch,series, created(for major version, begin Candidat_1,2 and Patch),release,eos
     netbsd_writer.writerow(['version', 'branch', 'series', 'created', 'release', 'eol'])
     netbsd_writer.writerow(['0.8', 'netbsd-0', 'major','', '20-04-1993', ''])
     netbsd_writer.writerow(['0.9', 'netbsd-0', 'major','', '23-08-1993', ''])
